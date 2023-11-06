@@ -42,7 +42,7 @@
   },
   "scripts": {
     "start": "npm run prod",
-    "build": "npm run clean && npm run transpile",
+    "build1": "npm run clean && npm run transpile",
     "server": "node ./dist-server/bin/www",
     "dev": "NODE_ENV=development npm run server",
     "prod": "NODE_ENV=production npm run server",
